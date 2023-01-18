@@ -1,0 +1,92 @@
+.nombres{
+    color: darkblue;
+    text-align: center;
+}
+
+.palas{
+    padding: 40px;
+}
+
+img{
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid darkblue;
+}
+
+.producto{
+    border-radius: 20px;
+    border: 5px solid;
+    border-color: darkblue darkmagenta;
+    width: 30%;
+    background-color: lightcyan;
+    float: left;
+    margin: 5px;
+    box-sizing: content-box 600px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;       /*Para que la descripción del producto no se salga en caso de minimizar la ventana*/
+}
+
+.contenido{
+    float: left;
+    display: flex;
+    padding: 3px;
+    height: 250px;
+}
+
+table{
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.descripcion{
+    color: darkblue;
+    font-weight: bold;
+    text-align: justify;
+    padding: 5px;
+}
+
+p::first-letter{
+    font-size: 200%;
+}
+
+.total{
+    font-weight: bold;
+    color: purple;
+}
+
+caption{
+    color: darkblue;
+    font-size: large;
+    font-weight: bold;
+}
+
+.volver{
+    font-size: large;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: darkblue;
+    clear: both;
+}
+
+.precio{
+    color: purple;
+    font-weight: bold;
+    border: 2px solid darkblue;
+    background-color: lightgreen;
+    clear: both;
+    border-radius: 10px;
+    width: 80px;
+    margin:0px auto /*Para centrar el contenido*/
+}
+
+.precio:hover{
+    transform: scale(1.2); 
+    transition: transform .5s;
+}
+
+a:link, a:visited{          /*Quitar el subrayado de los enlaces*/
+    text-decoration: none;
+}

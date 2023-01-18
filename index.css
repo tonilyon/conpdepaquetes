@@ -1,0 +1,103 @@
+body{
+    background-color: lightcyan;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+    text-shadow: 2px 2px cadetblue;
+    font-size: 300%;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+    color: darkblue;
+    border: 5px solid;
+    border-color: darkblue darkmagenta;
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.registro input {
+    float: right;
+}
+
+.redes img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.marca img{
+    border-radius: 20px;
+    border: 2px solid darkblue;
+}
+
+.bienvenida{
+    font-size: large;
+    font-weight: bold;
+    color: darkblue;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.bienvenida p::first-letter{
+    font-size: 500%;
+}
+
+.menu{
+    color: darkblue;
+    font-variant: small-caps;
+    font-size: large;
+    font-weight: bold;
+    border: 5px solid;
+    border-color: darkblue darkmagenta;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.menu p{
+    color: darkmagenta;
+    font-size: x-large;
+}
+
+.menu a{
+    color: darkmagenta
+}
+
+.contenido .menu{
+    float: left;
+    margin: 10px;
+}
+
+.contenido .bloque1 .bloque2{
+    float: left;
+    margin: 10px;
+}
+
+.bloque1{
+    display: flex;                                                     /*Para que las cajas no queden en vertical*/
+    padding: 40px;              
+    justify-content: space-around;                                       /*Para que los elementos estén separados*/
+    overflow: hidden;
+}
+
+.bloque2{
+    display: flex;                      
+    padding: 40px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+a:link, a:visited, a:hover, a:active{                                         /*Quitar el subrayado de los enlaces*/
+    text-decoration: none;
+}
+
+.marca:hover {       /*Para hacer zoom*/
+    transform: scale(1.5); 
+    transition: transform .5s;                                      /*Para que el zoom no sea brusco, sino gradual*/
+}
+
+
